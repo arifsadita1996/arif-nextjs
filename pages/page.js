@@ -6,8 +6,12 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
       bakwan
-
-      
+dadad
+      adad
+adad
+adad
+ada
+dadad
       </div>
     </main>
   )
