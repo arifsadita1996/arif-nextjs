@@ -1,3 +1,4 @@
-# AAAAAAAA
-lalalalalallalalala
+# Next Template
+
+Clone Free
 ```
