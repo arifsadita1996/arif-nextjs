@@ -22,5 +22,7 @@ export default async function handler(req, res) {
   const items = await db.all("SELECT * FROM buku");
   console.log(items)
   // Return the items as a JSON response with status 200
- res.send(items)
+ res.statusCode = 200;
+  res.setHeader('Content-Type', 'application/json');
+  res.json(items);
 }
